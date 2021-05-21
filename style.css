@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* this code is for whole landing page --------------- */
+.landing-page{
+    padding: 2%;
+}
+/* this code is for main heading ---------- */
+.main-heading, .short-bref{
+    text-align: center;
+    padding: 2%;
+}
+
+/* this code is for whole login-section---------- */
+.for-hospital{
+    float: left;
+    padding: 2%;
+    margin: 18px;
+}
+.for-patient{
+    float: right;
+    padding: 2%;
+    margin: 18px;
+}
+
+/* this code is for patient page login --------------- */
+.signup-login{
+    text-align: center;
+    margin-top: 10%;
+}
