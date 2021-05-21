@@ -1,4 +1,4 @@
-# Hospitant Prototype
+# hospitant prototype
 
 This is a prototype of Hospitant web based application which we are creating in Aatma Nirbhar Madhya Pradesh Hackathon 1.0.
 
