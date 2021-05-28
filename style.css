@@ -32,3 +32,78 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
     margin-top: 10%;
 }
+
+/* this section for patient form page -----------------*/
+.patient-form{   
+    display:flex;
+    height: 150vh;
+    height: fit-content;
+    max-height: max-content;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius:20px;
+    border-top-right-radius:100px;
+    width: fit-content;
+    text-align: left;
+    padding-left: 20px;
+    margin-left: 28%;
+    
+}
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    text-align: left;
+
+}
+.title{
+    font-size: 50px;
+    font-weight: 500;
+    position: relative;
+
+}
+
+
+.user-detail{
+    padding: 30px;
+    display: inline;
+}
+
+.details{
+    padding: 10px;
+}
+
+.email{
+    padding: 10px;
+}
+
+.contact{
+    padding: 10px;
+}
+
+.gender{
+    padding: 10px;
+    display:inline-flex;
+    justify-content: space-between;
+    
+}
+
+
+.address{
+    display:inline-flex;
+
+}
+
+.state{
+    margin-left: 60px;
+}
+
+.button{
+    padding: 10px;
+    font-size: large;
+    text-align: left;
+    
+}
+
+

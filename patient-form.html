@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>patient_form</title>
+            <link rel="stylesheet" href="style.css" class="rel">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body class="patient-form">
+            <div class="container">
+                <div class="title">Patient form</div>
+                <form action="#">
+    <!--this is for name-->                
+                    <div class="user-detail">
+                        <div class="input-box">
+                            <span class="details"><b>Full Name-</b></span><b>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div><br>
+    <!--this is for email-->
+                        <div class="input-box">
+                            <span class="email">E-mail-</span>
+                            <input type="email" placeholder="ex: name@example.com" required>
+                        </div><br>
+    <!--this is for age-->
+                          <div class="input-box">
+                            <span class="age">Age-</span>
+                            <input type="number" placeholder="your age" required>
+                          </div><br> 
+    <!--this is for dob-->
+                          <div class="input-box">
+                              <span class="dob">Date Of Birth</span>
+                              <input type="date" placeholder="date of birth" required>
+                          </div><br>                     
+    <!--this is for contact-->            
+                        <div class="input-box">
+                            <span class="contact">Contact Number-</span>
+                            <select>
+                            <option>+91</option>
+                            </select>
+                            <input type="number" placeholder="Enter your phone number" required>
+                        </div><br>
+    <!--this is for gender-->                    
+                        <div class="input-box">
+                            <span class="gender">Gender-</span>
+                            <input type="radio" name="gender">male
+                            <input type="radio" name="gender">female
+                            <input type="radio" name="gender">not to say prefer
+                            </div>
+                        </div><br>
+    <!--this is for married status-->
+                        <div class="input-box">
+                            <span class="married-status">Married Status-</span>
+                            <input type="radio" name="employer">Married
+                            <input type="radio" name="employer">Single
+                            <input type="radio" name="employer">divorced
+                            <input type="radio" name="employer">widowed
+                        </div><br>
+    <!--this is for Patient Employment-->
+                        <div class="input-box">
+                            <span class="employer">Patient Employer-</span>
+                            <input type="text" placeholder="Patient Employer"><br>
+                            <span class="gender">Employment Status-</span>
+                            <input type="radio" name="employer">Full Time
+                            <input type="radio" name="employer">Part Time
+                            <input type="radio" name="employer">Unemployed
+                            <input type="radio" name="employer">Retired
+                            <input type="radio" name="employer">Student
+                            <input type="radio" name="employer">other
+                        </div><br>
+    <!--this is for relationship to patient-->                    
+                        <div class="input-box">
+                            <span class="Relationship">Relationship to Patient-</span>
+                            <input type="text" placeholder="name" required>
+                        </div><br>
+
+    <!--this is for emergency contact-->            
+                        <div class="input-box">
+                            <span class=" emergency contact">Emergency Contact Number-</span>
+                            <select>
+                            <option>+91</option>
+                            </select>
+                            <input type="number" placeholder="emergency contact" required>
+                        </div><br> 
+
+    <!--this is for address-->                    
+                        <div class="input-box">
+                            <span class="address">Address-</span>
+                            <input type="text" placeholder="Street Address" required>
+                            <input type="text" placeholder="City" required><br>
+                            <input class="state" type="text" placeholder="State" required>
+                            <input type="text" placeholder="Postal/Zip code" required>
+                        </div><br><br>
+    <!--this is for Past medical history-->
+                        <div class="input-box">
+                            <span class="medical history">Past Medical History-</span>
+                            <p>Please check any of YOUR previous condition and provide year of diagonsis</p><br>
+                            <input type="checkbox" name="medical-history">Diabetes Type I
+                            <input type="checkbox" name="medical-history">Diabetes Type II
+                            <input type="checkbox" name="medical-history">Rheumatoid Arthritis
+                            <input type="checkbox" name="medical-history">Lupus/Autoimmune<br><br>
+                            <input type="checkbox" name="medical-history">Anemia
+                            <input type="checkbox" name="medical-history">High Blood Pressure
+                            <input type="checkbox" name="medical-history">Coronary Artery Dis
+                            <input type="checkbox" name="medical-history">High Cholesterol
+                            <input type="checkbox" name="medical-history">Blood Clots<br><br>
+                            <input type="checkbox" name="medical-history">Heart Attack
+                            <input type="checkbox" name="medical-history">Atrial Fibrillation
+                            <input type="checkbox" name="medical-history">Blood Transfusion
+                            <input type="checkbox" name="medical-history">Stroke
+                            <input type="checkbox" name="medical-history">Epilepsy/Seizures<br><br>
+                            <input type="checkbox" name="medical-history">Anxiety
+                            <input type="checkbox" name="medical-history">Depression
+                            <input type="checkbox" name="medical-history">Hepatitis A,B,C (CIRCLE)
+                            <input type="checkbox" name="medical-history">Liver Disease
+                            <input type="checkbox" name="medical-history">Kidney Disease<br><br>
+                            <input type="checkbox" name="medical-history">Thyroid Disease
+                            <input type="checkbox" name="medical-history">HIV/AIDS
+                            <input type="checkbox" name="medical-history">HPV
+                            <input type="checkbox" name="medical-history">Hemorrhoids
+                            <input type="checkbox" name="medical-history">Asthma
+                            <input type="checkbox" name="medical-history">COPD<br><br>
+                            <input type="checkbox" name="medical-history">Acid Reflux
+                            <input type="checkbox" name="medical-history">Peptic Ulcer
+                            <input type="checkbox" name="medical-history">Cancer
+                            <input type="checkbox" name="medical-history">Pacemaker
+                            <input type="checkbox" name="medical-history">Artificial Joints<br><br>
+                            <input type="checkbox" name="medical-history">Metals in body
+                            <input type="checkbox" name="medical-history">Defibrillator
+                            <input type="checkbox" name="medical-history">Other
+                        </div><br>
+    <!--this is for Insurance section-->
+                            <div class="input-box">
+                                <span class="Insurance">Primary Insurance-</span>
+                                <input type="text" placeholder=""><br>
+                                <span class="Insurance">Patient is Subscriber Policy Holder-</span>
+                                <input type="checkbox" name="" >Yes
+                                <input type="checkbox" name="">No<br><br>
+                                <span class="Insurance">Secondary Insurance-</span>
+                                <input type="text" placeholder="" ><br>
+                                <span class="Insurance">Patient is Subscriber Policy Holder-</span>
+                                <input type="checkbox" name="">Yes
+                                <input type="checkbox" name="">No<br>
+                                
+                            </div><br>
+                                
+    <!--this is for button-->
+                        <div class="button">    
+                            <input type="submit" value="submit">  
+                          </div>                       
+                    </div>
+                   
+                    
+                </form>
+            </div>
+    </body>
+</html>
