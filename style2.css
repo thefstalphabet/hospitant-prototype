@@ -1,0 +1,24 @@
+body{
+    background-color: #DBD2D0  ;
+}
+.main-div{
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    padding: 20px;
+    background-color: #EAE2E1 ;
+    border-radius: 50px;
+    box-shadow: 5px 5px #888888;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.main-div-details{
+    text-align: center;
+}
+hr{
+    height: 1px;
+    background-color: black;
+}
+table{
+    text-align: center;
+}
